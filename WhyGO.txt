@@ -1,0 +1,9 @@
+1. Concurrency Support
+    easy than other languages
+    (just a go keyword to spawn a goroutine)
+
+2. Garbage collection
+3. Standard Library
+Con: The standalone binaries of GoLang are huge because they need to include the power of the virtual machine as well. Even a small ‘hello world’ might eat up 2MB of data. Of course, much has been done to compress the binaries by excluding uncalled methods. Still and all, the RAM might end up clogging when a server fires up multiple versions of your code.
+
+Furthermore, GoLang allows dependencies to be expressed within the same file that contains the dependent code. Although this is a good thing, no programmer can indicate a specific version of the dependencies.
